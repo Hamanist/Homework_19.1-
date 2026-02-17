@@ -281,7 +281,8 @@
                                 Email support,
                                 Help center access
                             </p>
-                            <button type="button" class="w-100 btn btn-lg btn btn-success" title="КУПИ МЕНЯ">Купить</button>
+                            <button type="button" class="w-100 btn btn-lg btn btn-success" title="КУПИ МЕНЯ">Купить
+                            </button>
                         </div>
 
                     </div>
@@ -291,26 +292,94 @@
                     <div class="card mb-4 rounded-3 shadow-sm">
                         <div class="card-header py-3">
                             <h4 class="my-0 fw-normal">Оставьте заявку</h4>
+                        </div>
+                        <br>
+                        <form>
+                            <div class="mb-3">
+                                <input name="name" type="text" class="form-control" id="exampleInputEmail1"
+                                       placeholder="Имя"
+                                       aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-4">
+                                <input name="email" type="email" class="form-control" id="exampleInputPassword1"
+                                       placeholder="Email">
+                            </div>
+
+                            <button type="submit" class="w-50 btn btn-success mb-4">Отправить</button>
+                        </form>
                     </div>
-                    <br>
-                    <form>
-                      <div class="mb-3">
-                        <input name="name" type="text" class="form-control" id="exampleInputEmail1"
-                               placeholder="Имя"
-                               aria-describedby="emailHelp">
-                      </div>
-                      <div class="mb-3">
-                        <input name="email" type="email" class="form-control" id="exampleInputPassword1"
-                        placeholder="Email">
-                      </div>
-
-                      <button type="submit" class="w-50 btn btn-primary mb-4">Submit</button>
-
-                    </form>
-                    </div>
-
                 </div>
             </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="card mb-4 rounded-3 ">
+                        <div class="card-header">
+                            <h4 class="my-0 fw-normal text-center">FAQ</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <p>
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseWidthExample" aria-expanded="false"
+                                aria-controls="collapseWidthExample">
+                            Как купить?
+                        </button>
+                    </p>
+                    <div style="min-height: 120px;">
+                        <div class="collapse collapse-horizontal" id="collapseWidthExample1">
+                            <div class="card card-body" style="width: 300px;">
+                                Пишешь продавцу: "Добрый день, товар еще актуален?".
+                                Ждешь вечность. Потом торгуешься (-10%),
+                                договариваешься о встрече у метро и внимательно проверяешь,
+                                не муляж ли это
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <p>
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseWidthExample" aria-expanded="false"
+                                aria-controls="collapseWidthExample">
+                            Как доставить?
+                        </button>
+                    </p>
+                    <div style="min-height: 120px;">
+                        <div class="collapse collapse-horizontal" id="collapseWidthExample2">
+                            <div class="card card-body" style="width: 300px;">
+                                Встречаешься с продавцом в переходе метро.
+                                Он достает из пакета "Пятерочки" антикварную вазу,
+                                замотанную в три слоя газеты. Ты трясешь её у уха,
+                                слышишь подозрительный звон и надеешься,
+                                что это просто фольга
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <p>
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseWidthExample" aria-expanded="false"
+                                aria-controls="collapseWidthExample">
+                            Какая гарантия?
+                        </button>
+                    </p>
+                    <div style="min-height: 120px;">
+                        <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                            <div class="card card-body" style="width: 300px;">
+                                Гарантия работает ровно до того момента,
+                                как ты выйдешь из перехода метро.
+                                Как только ты отошел на 10 метров — ваза разбилась сама,
+                                продавец уже заблокировал тебя и уехал в закат на трамвае
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </main>
 
     </div>
